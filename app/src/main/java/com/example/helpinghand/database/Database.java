@@ -51,8 +51,11 @@ public class Database {
                     rs.getString("password"),
                     rs.getString("firstname"),
                     rs.getString("postcode"),
-                    rs.getInt("group"),
-                    rs.getInt("admin"));
+                    rs.getInt("setGroup"),
+                    rs.getInt("admin"),
+                    rs.getString("kindOfHelp"),
+                    rs.getString("aboutMe")
+                    );
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -60,13 +63,12 @@ public class Database {
         return thisUser;
     }
 
-    public void addUser (String userName, String email, String password, String firstname, String postcode, int group, int admin) throws SQLException {
+    public void addUser (String userName, String email, String password, String firstname, String postcode, int group, int admin, String kindOfHelp, String aboutMe) throws SQLException {
         openConnection();
         ResultSet rs = stmt.executeQuery("select max(id) from users");
         rs.next();
-        // searching through DB for max ID then adding 1 to create next ID
         int id = rs.getInt(1) + 1;
-        String query = "insert into users values ('"+id+"', '"+userName+"', '"+email+"', '"+password+"', '"+firstname+"', '"+postcode+"', '"+group+"', '"+admin+"')";
+        String query = "insert into users values ('"+id+"', '"+userName+"', '"+email+"', '"+password+"', '"+firstname+"', '"+postcode+"', '"+group+"', '"+admin+"', '"+kindOfHelp+"', '"+aboutMe+"')";
         stmt.executeUpdate(query);
         stmt.close();
         closeConnection();
@@ -135,6 +137,32 @@ public class Database {
         return postcode;
     }
 
+    public String readKindOfHelp(String username) throws SQLException {
+        openConnection();
+        ResultSet query =stmt.executeQuery ("SELECT kindOfHelp FROM users where username like '"+username+"' ");
+        query.next();
+        String kindOfHelp = query.getString(1);
+        closeConnection();
+        return kindOfHelp;
+    }
+
+    public String readAboutMe(String username) throws SQLException {
+        openConnection();
+        ResultSet query =stmt.executeQuery ("SELECT aboutMe FROM users where username like '"+username+"' ");
+        query.next();
+        String aboutMe = query.getString(1);
+        closeConnection();
+        return aboutMe;
+    }
+
+    public void updateInNeedInfo (String username, String kindOfHelp, String aboutMe) throws SQLException {
+        openConnection();
+        String query = "Update users set kindOfHelp = '"+kindOfHelp+"', aboutMe = '"+aboutMe+"' where username = '"+username+"'";
+        stmt.executeUpdate(query);
+        stmt.close();
+        closeConnection();
+    }
+
     public void setAsGiverOrReciver(String username, int group) throws SQLException {
         openConnection();
         String query = "Update users set setGroup = '"+group+"' where username = '"+username+"'";
@@ -166,6 +194,25 @@ public class Database {
         }
         closeConnection();
         return userPostcode;
+    }
+
+    public ArrayList<User> showUserInfoOnMap() throws SQLException {
+        ArrayList<User> users = new ArrayList<>();
+        openConnection();
+        ResultSet query =stmt.executeQuery ("SELECT * FROM users where setGroup=2");
+
+        while(query.next()){
+            user = getNextUser(query);
+            users.add(user);
+        }
+        closeConnection();
+        return users;
+    }
+
+    public String contactDetailsInNeedPerson(String username){
+        openConnection();
+        closeConnection();
+        return "";
     }
 
 

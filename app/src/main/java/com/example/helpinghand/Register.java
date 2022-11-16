@@ -24,15 +24,11 @@ public class Register extends AppCompatActivity {
     private EditText email;
     private EditText password;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
 
-
-
-        Button login = findViewById(R.id.loginButton);
         Button register = findViewById(R.id.registerUserButton);
         username = findViewById(R.id.registerUsername);
         password = findViewById(R.id.registerPassword);
@@ -47,6 +43,8 @@ public class Register extends AppCompatActivity {
             String postcode = "";
             int group = 0;
             int admin =0;
+            String kindOfHelp = "";
+            String aboutMe = "";
 
             Database user = new Database();
 
@@ -67,36 +65,18 @@ public class Register extends AppCompatActivity {
                             if(txt_password.length()<6 || txt_password.length()>100){
                                 Toast.makeText(getApplicationContext(), "Password must be 6-100 characters long", Toast.LENGTH_LONG).show();
                             } else{
-                                user.addUser(user_name,email_address,txt_password,firstname,postcode,group,admin);
+                                user.addUser(user_name,email_address,txt_password,firstname,postcode,group,admin,kindOfHelp, aboutMe);
                                 Intent registrationSuccessful = new Intent(Register.this, RegisterSuccessful.class);
                                 startActivity(registrationSuccessful);
                             }
                         }
-
-
-
-
                     } catch (SQLException throwables) {
                         throwables.printStackTrace();
                     }
 
                 }
-
-
-
             }
-
-
-
         });
-
-
-
-        login.setOnClickListener(v -> {
-            Intent login1 = new Intent(Register.this, Login.class);
-            startActivity(login1);
-        });
-
 
     }
 

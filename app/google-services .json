@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "410050439594",
+    "firebase_url": "https://helpinghand-e9153-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "helpinghand-e9153",
+    "storage_bucket": "helpinghand-e9153.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410050439594:android:c81af2421b77ad5200a3d3",
+        "android_client_info": {
+          "package_name": "com.example.helpinghand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410050439594-jkv0rpf2fvigh4ov8j0ksuq15qhdjij5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8iOQJsl1G3NvCqFPLpJ1pny3inZ6gvzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410050439594-jkv0rpf2fvigh4ov8j0ksuq15qhdjij5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

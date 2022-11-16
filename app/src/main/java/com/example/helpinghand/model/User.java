@@ -10,16 +10,20 @@ public class User {
     private String postcode;
     private int group;
     private int admin;
+    private String kindOfHelp;
+    private String aboutMe;
 
-    public User(int id, String userName, String email, String password, String firstName, String postcode, int group, int admin){
+    public User(int id, String userName, String email, String password, String firstName, String postcode, int group, int admin, String kindOfHelp, String aboutMe){
         this.id = id;
         this.userName = userName;
         this.email = email;
         this.password = password;
-        this.firstName = "";
-        this.postcode = "";
+        this.firstName = firstName;
+        this.postcode = postcode;
         this.group = 0;
         this.admin = 0;
+        this.kindOfHelp = kindOfHelp;
+        this.aboutMe = aboutMe;
 
     }
 

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HelpingHand</string>
+    <string name="Open">HelpingHand</string>
+    <string name="Close">HelpingHand</string>
 </resources>

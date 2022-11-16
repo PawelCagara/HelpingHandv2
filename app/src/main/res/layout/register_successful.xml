@@ -5,28 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/successfulRegisterText"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginBottom="69dp"
-        android:text="Your registration was successful, you can now login"
-        app:layout_constraintBottom_toTopOf="@+id/loginButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="177dp"
-        android:layout_height="66dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="518dp"
+        android:layout_width="244dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="395dp"
         android:text="Login"
+        android:backgroundTint="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/successfulRegisterText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/successfulRegisterText" />
+
+    <TextView
+        android:id="@+id/successfulRegisterText"
+        android:layout_width="287dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginBottom="68dp"
+        android:text="Your registration was successful, you can now login"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

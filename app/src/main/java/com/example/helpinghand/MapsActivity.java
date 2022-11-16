@@ -1,10 +1,12 @@
 package com.example.helpinghand;
 
+import android.content.Intent;
 import android.os.Build;
 
 import android.os.Bundle;
 
 import com.example.helpinghand.database.Database;
+import com.example.helpinghand.model.User;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -53,6 +55,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     GoogleApiClient mGoogleApiClient;
     LocationRequest mLocationRequest;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,7 +83,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             buildGoogleApiClient();
             mMap.setMyLocationEnabled(true);
         }
-
+        //map zooming
+        mMap.getUiSettings().setZoomControlsEnabled(true);
     }
     protected synchronized void buildGoogleApiClient() {
         mGoogleApiClient = new GoogleApiClient.Builder(this)
@@ -114,15 +119,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         URL url;
         String newLink;
-        //String postcode = "WC2N 5DU";
         String line;
+        int i=0;
 
         Database user = new Database();
-        ArrayList<String> postcode = new ArrayList<>();
+        ArrayList<String> postcode;
+        ArrayList<User> users;
+
+
 
 
         try {
             postcode = user.checkPostcode();
+            users = user.showUserInfoOnMap();
             for(String singlePostcode:postcode) {
                 String response ="";
 
@@ -141,28 +150,50 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 JSONObject jo = new JSONObject(response);
                 Double lat = Double.valueOf(((JSONArray) jo.get("results")).getJSONObject(0).getJSONObject("geometry").getJSONObject("location").get("lat").toString());
                 Double lng = Double.valueOf(((JSONArray) jo.get("results")).getJSONObject(0).getJSONObject("geometry").getJSONObject("location").get("lng").toString());
-                System.out.println("lat" + lat);
+                //place marker of users which need assistance, taken from DB
                 LatLng latLng = new LatLng(lat, lng);
                 MarkerOptions markerOptions = new MarkerOptions();
                 markerOptions.position(latLng);
-                markerOptions.title("You are here");
-                markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                String showUsernameOnMap = users.get(i).getUserName();
+                String showFirstNameOnMap = users.get(i).getFirstName();
+                String showPostcodeOnMap = users.get(i).getPostcode();
+
+
+                markerOptions.title(showUsernameOnMap);
+                markerOptions.snippet("First Name: "+showFirstNameOnMap+", Postcode: "+ showPostcodeOnMap);
+
+                markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
                 mCurrLocationMarker = mMap.addMarker(markerOptions);
 
                 //move map camera
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
                 mMap.animateCamera(CameraUpdateFactory.zoomTo(11));
-
+                i++;
             }
+
+            mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
+                @Override
+                public void onInfoWindowClick(Marker marker) {
+                    String markerTitle = marker.getTitle();
+                    Intent contactDetails = new Intent(MapsActivity.this, Contact.class);
+                    contactDetails .putExtra("title", markerTitle);
+                    startActivity(contactDetails);
+
+                }
+
+            });
 
             mLastLocation = location;
             if (mCurrLocationMarker != null) {
                 mCurrLocationMarker.remove();
             }
             //Place current location marker
-            //LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
-
-
+            LatLng latLngUser = new LatLng(location.getLatitude(), location.getLongitude());
+            MarkerOptions markerOptions = new MarkerOptions();
+            markerOptions.position(latLngUser);
+            markerOptions.title("You are here");
+            markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
+            mCurrLocationMarker = mMap.addMarker(markerOptions);
             //stop location updates
             if (mGoogleApiClient != null) {
                 LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);

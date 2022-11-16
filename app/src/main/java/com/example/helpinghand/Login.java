@@ -31,15 +31,9 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-
-
         Button login = findViewById(R.id.loginUserButton);
-        Button register = findViewById(R.id.registerButton);
         username =  findViewById(R.id.loginUsername);
         password =  findViewById(R.id.loginPassword);
-
-
-
 
         login.setOnClickListener(v -> {
             String loginUsername = username.getText().toString();
@@ -63,19 +57,7 @@ public class Login extends AppCompatActivity {
                     throwables.printStackTrace();
                 }
             }
-
-
-
         });
-
-        register.setOnClickListener(v -> {
-            Intent register1 = new Intent(Login.this, Register.class);
-            startActivity(register1);
-        });
-
-
-
-
     }
 
 

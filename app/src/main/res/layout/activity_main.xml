@@ -8,56 +8,52 @@
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="197dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="36dp"
+        android:layout_width="192dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="111dp"
+        android:backgroundTint="@android:color/holo_blue_light"
         android:text="Login"
         app:layout_constraintBottom_toTopOf="@+id/homeText3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/homeText2" />
+        app:layout_constraintTop_toBottomOf="@+id/homeText" />
 
     <Button
         android:id="@+id/registerButton"
-        android:layout_width="204dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="124dp"
+        android:layout_width="206dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="87dp"
+        android:backgroundTint="@android:color/holo_blue_light"
         android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/homeText3" />
 
     <TextView
-        android:id="@+id/homeText2"
-        android:layout_width="193dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="67dp"
-        android:text="In order to be ale to use our app, you need to login first"
-        app:layout_constraintBottom_toTopOf="@+id/loginButton"
-        app:layout_constraintStart_toStartOf="@+id/homeText"
-        app:layout_constraintTop_toBottomOf="@+id/homeText" />
-
-    <TextView
         android:id="@+id/homeText3"
-        android:layout_width="198dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="31dp"
-        android:text="Don't have an account? Register below"
+        android:layout_width="191dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="57dp"
+        android:text="Don't have an account?"
         app:layout_constraintBottom_toTopOf="@+id/registerButton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginButton" />
 
     <TextView
         android:id="@+id/homeText"
-        android:layout_width="199dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="85dp"
+        android:layout_width="209dp"
+        android:layout_height="41dp"
         android:layout_marginTop="34dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="94dp"
         android:text="Wellcome to our HelpingHand app"
-        app:layout_constraintBottom_toTopOf="@+id/homeText2"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
