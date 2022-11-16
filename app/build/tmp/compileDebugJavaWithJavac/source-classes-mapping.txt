@@ -1,0 +1,102 @@
+com/example/helpinghand/databinding/ActivityMapsBinding.java
+ com.example.helpinghand.databinding.ActivityMapsBinding
+com/example/helpinghand/databinding/UploadPhotoBinding.java
+ com.example.helpinghand.databinding.UploadPhotoBinding
+com/example/helpinghand/databinding/HelpersBinding.java
+ com.example.helpinghand.databinding.HelpersBinding
+com/example/helpinghand/RegisterSuccessful.java
+ com.example.helpinghand.RegisterSuccessful
+com/example/helpinghand/model/MessageAdapter.java
+ com.example.helpinghand.model.MessageAdapter
+com/example/helpinghand/helpers/API.java
+ com.example.helpinghand.helpers.API
+com/example/helpinghand/model/User.java
+ com.example.helpinghand.model.User
+com/example/helpinghand/databinding/ProfileBinding.java
+ com.example.helpinghand.databinding.ProfileBinding
+com/example/helpinghand/ChangeGroup.java
+ com.example.helpinghand.ChangeGroup
+com/example/helpinghand/HomeHelpers.java
+ com.example.helpinghand.HomeHelpers
+com/example/helpinghand/MainActivity.java
+ com.example.helpinghand.MainActivity
+com/example/helpinghand/databinding/NavigationHeaderBinding.java
+ com.example.helpinghand.databinding.NavigationHeaderBinding
+com/example/helpinghand/helpers/UserLoginCache.java
+ com.example.helpinghand.helpers.UserLoginCache
+com/example/helpinghand/helpers/RetrofitClient.java
+ com.example.helpinghand.helpers.RetrofitClient
+com/example/helpinghand/ProfileUpdate.java
+ com.example.helpinghand.ProfileUpdate
+com/example/helpinghand/databinding/ProfileChangeGroupBinding.java
+ com.example.helpinghand.databinding.ProfileChangeGroupBinding
+com/example/helpinghand/databinding/ActivityChannelBinding.java
+ com.example.helpinghand.databinding.ActivityChannelBinding
+com/example/helpinghand/BuildConfig.java
+ com.example.helpinghand.BuildConfig
+com/example/helpinghand/Register.java
+ com.example.helpinghand.Register
+com/example/helpinghand/databinding/HomeHelpersBinding.java
+ com.example.helpinghand.databinding.HomeHelpersBinding
+com/example/helpinghand/databinding/NavbarBinding.java
+ com.example.helpinghand.databinding.NavbarBinding
+com/example/helpinghand/databinding/MyMessageBinding.java
+ com.example.helpinghand.databinding.MyMessageBinding
+com/example/helpinghand/databinding/HomePageBinding.java
+ com.example.helpinghand.databinding.HomePageBinding
+com/example/helpinghand/databinding/LoginBinding.java
+ com.example.helpinghand.databinding.LoginBinding
+com/example/helpinghand/databinding/TestBinding.java
+ com.example.helpinghand.databinding.TestBinding
+com/example/helpinghand/databinding/ChatBinding.java
+ com.example.helpinghand.databinding.ChatBinding
+com/example/helpinghand/databinding/RegisterBinding.java
+ com.example.helpinghand.databinding.RegisterBinding
+com/example/helpinghand/databinding/TheirMessageBinding.java
+ com.example.helpinghand.databinding.TheirMessageBinding
+com/example/helpinghand/databinding/HomeInNeedBinding.java
+ com.example.helpinghand.databinding.HomeInNeedBinding
+com/example/helpinghand/databinding/ActivityMainBinding.java
+ com.example.helpinghand.databinding.ActivityMainBinding
+com/example/helpinghand/databinding/RegisterSuccessfulBinding.java
+ com.example.helpinghand.databinding.RegisterSuccessfulBinding
+com/example/helpinghand/Profile.java
+ com.example.helpinghand.Profile
+com/example/helpinghand/databinding/PasswordChangeBinding.java
+ com.example.helpinghand.databinding.PasswordChangeBinding
+com/example/helpinghand/UploadPhoto.java
+ com.example.helpinghand.UploadPhoto
+com/example/helpinghand/HomePage.java
+ com.example.helpinghand.HomePage
+com/example/helpinghand/PasswordChange.java
+ com.example.helpinghand.PasswordChange
+com/example/helpinghand/model/Image.java
+ com.example.helpinghand.model.Image
+com/example/helpinghand/databinding/ProfileUpdateBinding.java
+ com.example.helpinghand.databinding.ProfileUpdateBinding
+com/example/helpinghand/model/MemberData.java
+ com.example.helpinghand.model.MemberData
+com/example/helpinghand/MapsActivity.java
+ com.example.helpinghand.MapsActivity
+ com.example.helpinghand.MapsActivity$1
+com/example/helpinghand/databinding/ContactBinding.java
+ com.example.helpinghand.databinding.ContactBinding
+com/example/helpinghand/helpers/Validation.java
+ com.example.helpinghand.helpers.Validation
+com/example/helpinghand/Test.java
+ com.example.helpinghand.Test
+com/example/helpinghand/database/Database.java
+ com.example.helpinghand.database.Database
+com/example/helpinghand/Login.java
+ com.example.helpinghand.Login
+com/example/helpinghand/model/Message.java
+ com.example.helpinghand.model.Message
+com/example/helpinghand/ChannelActivity.java
+ com.example.helpinghand.model.ChannelActivity
+ com.example.helpinghand.model.ChannelActivity$1
+com/example/helpinghand/Chat.java
+ com.example.helpinghand.Chat
+com/example/helpinghand/HomeInNeed.java
+ com.example.helpinghand.HomeInNeed
+com/example/helpinghand/Contact.java
+ com.example.helpinghand.Contact

@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\chat.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_no_image.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-anydpi-v26\\no_image.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_helpers.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\home_helpers.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile_change_group.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\profile_change_group.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_message.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\my_message.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_navbar.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\navbar.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable-mdpi\\no_image.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_test.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_logout.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\nav_logout.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_no_image_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-hdpi\\no_image_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\profile.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_no_image_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxxhdpi\\no_image_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_register_successful.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\register_successful.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xhdpi\\no_image.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\menu\\navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_channel.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\activity_channel.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_no_image_foreground.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xhdpi\\no_image_foreground.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_android_black_24dp.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_no_image_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-mdpi\\no_image_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_no_image_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xhdpi\\no_image_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_no_image_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxhdpi\\no_image_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_upload_photo.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\upload_photo.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-mdpi\\no_image.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_no_image_round.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-anydpi-v26\\no_image_round.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable-xxxhdpi\\no_image.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable-xxhdpi\\no_image.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_upload.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\upload.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_no_image_foreground.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxhdpi\\no_image_foreground.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_no_image_foreground.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-hdpi\\no_image_foreground.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_password_change.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\password_change.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_no_image_foreground.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxxhdpi\\no_image_foreground.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_profile.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\nav_profile.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_my_message.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\my_message.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_group.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\nav_group.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_their_message.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\their_message.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_register.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_contact.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\contact.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxhdpi\\no_image.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_in_need.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\home_in_need.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_password.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\nav_password.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_navigation_header.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\navigation_header.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable-xhdpi\\no_image.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avatar.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\avatar.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-hdpi\\no_image.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable-hdpi\\no_image.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_page.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\home_page.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_their_message.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\their_message.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_send_button.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\send_button.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_helpers.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\helpers.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_header.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\nav_header.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile_update.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\layout\\profile_update.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image.xml.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\drawable\\image.xml"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_no_image_foreground.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-mdpi\\no_image_foreground.png"
+    },
+    {
+        "merged": "D:\\HelpingHand\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_no_image.png.flat",
+        "source": "D:\\HelpingHand\\app\\src\\main\\res\\mipmap-xxxhdpi\\no_image.png"
+    }
+]
